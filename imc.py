@@ -116,4 +116,7 @@ def exibirAnalise(__indiceMassaCorporal):
         print("  - Está muito acima do peso ideal.")
     elif (isMuitoAbaixoPeso(__indiceMassaCorporal)):
         print("  - Está muito abaixo do peso ideal.")
-
+    elif (isAbaixoPeso(__indiceMassaCorporal)):
+        print("  - Está abaixo do peso ideal.")
+    else:
+        print("  - Está com o peso ideal.")
