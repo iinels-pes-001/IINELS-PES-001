@@ -1,4 +1,4 @@
-<img align="right" hspace="20" src="https://img.shields.io/badge/IMC-v2.0.0-green.svg?style=flat-square"/>
+<img align="right" hspace="20" src="https://img.shields.io/badge/IMC-v2.1.0-green.svg?style=flat-square"/>
 
 # iMC - Tarefa 1 
 
