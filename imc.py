@@ -102,3 +102,21 @@ def exibirResultadoFormatado(__indiceMassaCorporal):
     print("  - Está muito acima do peso ideal? -----> %r" %(isMuitoAcimaPeso(__indiceMassaCorporal)))
     print("-------------------------------------------------------------------------------------------")
     print("\n")
+
+
+def exibirAnalise(__indiceMassaCorporal):
+    """Exibe na tela o resultado da análise de classificação do IMC
+        :param __indiceMassaCorporal: indice de massa corporal do indivíduo
+        :type __indiceMassaCorporal: float
+    """
+    print("-------------------------------------------------------------------------------------------")
+    if (isAcimaPeso(__indiceMassaCorporal)):
+        print("  - Está acima do peso ideal.")
+    elif (isMuitoAcimaPeso(__indiceMassaCorporal)):
+        print("  - Está muito acima do peso ideal.")
+    elif (isMuitoAbaixoPeso(__indiceMassaCorporal)):
+        print("  - Está muito abaixo do peso ideal.")
+    elif (isAbaixoPeso(__indiceMassaCorporal)):
+        print("  - Está abaixo do peso ideal.")
+    else:
+        print("  - Está com o peso ideal.")

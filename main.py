@@ -21,4 +21,5 @@ imc.exibirCabecalhoResultadoFormatado("iMC - Calculadora Índice de Massa Copora
 pesoQuilos = float(input("  + Informe o peso em quilos   (Ex.: 70.5): "))
 alturaMetros = float(input("  + Informe a altura em metros (Ex.: 1.85): "))
 indiceMassaCorporal = imc.calcularIndiceMassaCorporal(pesoQuilos, alturaMetros)
+imc.exibirAnalise(indiceMassaCorporal)
 imc.exibirResultadoFormatado(indiceMassaCorporal)
