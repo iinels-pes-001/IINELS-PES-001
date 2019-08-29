@@ -43,7 +43,7 @@ def is_abaixo_peso(__indice_massa_corporal):
     """Verifica se o indivíduo está abaixo do peso ideal
         :param __indice_massa_corporal: indice de massa corporal do indivíduo
         :type __indice_massa_corporal: float
-        :return __is_abaixo_peso: True ou False para IMC >= 17 e IMC <= 18.5
+        :return __is_abaixo_peso: True ou False para IMC >= 17 e IMC < 18.5
         :rtype: bool
     """
     __is_abaixo_peso = (__indice_massa_corporal >= 17 and __indice_massa_corporal < 18.5)
@@ -54,7 +54,7 @@ def is_peso_normal(__indice_massa_corporal):
     """Verifica se o indivíduo está com o peso ideal
         :param __indice_massa_corporal: indice de massa corporal do indivíduo
         :type __indice_massa_corporal: float
-        :return __is_peso_normal: True ou False para IMC >= 18.5 e IMC <= 25
+        :return __is_peso_normal: True ou False para IMC >= 18.5 e IMC < 25
         :rtype: bool
     """
     __is_peso_normal = (__indice_massa_corporal >= 18.5 and __indice_massa_corporal < 25)
@@ -65,7 +65,7 @@ def is_acima_peso(__indice_massa_corporal):
     """Verifica se o indivíduo está acima do peso ideal
         :param indiceMassaCorporal: indice de massa corporal do indivíduo
         :type indiceMassaCorporal: float
-        :return is_acima_peso: True ou False para IMC >= 25 e IMC <= 30
+        :return is_acima_peso: True ou False para IMC >= 25 e IMC < 30
         :rtype: bool
     """
     __is_acima_peso = (__indice_massa_corporal >= 25 and __indice_massa_corporal < 30)
@@ -76,7 +76,7 @@ def is_muito_acima_peso(__indice_massa_corporal):
     """Verifica se o indivíduo está muito acima do peso ideal
         :param __indice_massa_corporal: indice de massa corporal do indivíduo
         :type __indice_massa_corporal: float
-        :return is_muito_acima_peso: True ou False para IMC > 30
+        :return is_muito_acima_peso: True ou False para IMC >= 30
         :rtype: bool
     """
     __is_muito_acima_peso = (__indice_massa_corporal >= 30)
