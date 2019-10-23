@@ -1,4 +1,4 @@
-<img align="right" hspace="20" src="https://img.shields.io/badge/IMC-v1.0.0-green.svg?style=flat-square"/>
+<img align="right" hspace="20" src="https://img.shields.io/badge/IMC-v2.1.0-green.svg?style=flat-square"/>
 
 # iMC - Tarefa 1 
 
@@ -58,7 +58,7 @@ Caso deseje realizar a ação utilizando um terminal:
 
 Para executar o módulo via terminal: 
 1. Acesse o diretório do arquivo que deseja executar (Ex: ... `cd git/imc`); 
-2. Execute o comando: `python3 imc.py`
+2. Execute o comando: `python3 main.py`
 
 ## 5. Sincronizando o "Fork" com repositório oficial:
 
